@@ -7,17 +7,29 @@
 
 
 <p align="center"> 
-<a href="https://t.me/rktechnoindians"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=35&pause=1000&color=F74848&center=true&vCenter=true&random=false&width=435&lines=𝐀𝐏𝐊-𝐌𝐈𝐓𝐌-𝐢𝐧-𝐓𝐞𝐫𝐦𝐮𝐱" /></a>
+<a href="https://t.me/rktechnoindians"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=35&pause=1000&color=F74848&center=true&vCenter=true&random=false&width=435&lines=𝐌𝐢𝐭𝐦𝐏𝐫𝐨𝐱𝐲-𝐢𝐧-𝐔𝐛𝐮𝐧𝐭𝐮" /></a>
  </p>
 
 ## Original Source
 [![Github](https://img.shields.io/badge/GitHub-red?style=for-the-badge&logo=github)](https://github.com/shroudedcode/apk-mitm)
 
 
-## Installation Commands
+## Installation Ubuntu Commands
 ```python
-curl -s https://raw.githubusercontent.com/TechnoIndian/apk-mitm/main/APK-MITM-in-Termux.sh | bash
+curl -s https://raw.githubusercontent.com/TechnoIndian/Ubuntu/main/Ubuntu-in-Termux.sh -O && chmod -R +x Ubuntu-in-Termux.sh && ./Ubuntu-in-Termux.sh
 ```
+
+# Select anyone of the both 
+
+## Installation MitmProxy Commands
+```python
+curl -s https://raw.githubusercontent.com/TechnoIndian/MitmpProxy-in-Ubuntu/main/MitmProxy-in-Ubuntu-1.sh | bash
+```
+
+## Installation MitmProxy Commands
+```
+curl -s https://raw.githubusercontent.com/TechnoIndian/Ubuntu/main/Ubuntu-in-Termux.sh -O && chmod -R +x Ubuntu-in-Termux.sh && ./Ubuntu-in-Termux.sh
+
 
 ## Run 𝐀𝐏𝐊-𝐌𝐈𝐓𝐌
 # Change the 'PATH' & 'FOLDER_NAME' as you like
