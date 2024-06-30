@@ -23,12 +23,12 @@ curl -s https://raw.githubusercontent.com/TechnoIndian/Ubuntu/main/Ubuntu-in-Ter
 
 ## Installation MitmProxy Commands
 ```python
-curl -s https://raw.githubusercontent.com/TechnoIndian/MitmpProxy-in-Ubuntu/main/MitmProxy-in-Ubuntu-1.sh | bash
+curl -s https://raw.githubusercontent.com/TechnoIndian/MitmProxy-in-Ubuntu/main/MitmProxy-in-Ubuntu-1.sh | bash
 ```
 
 ## Installation MitmProxy Commands
 ```Python
-curl -s https://raw.githubusercontent.com/TechnoIndian/MitmpProxy-in-Ubuntu/main/MitmProxy-in-Ubuntu-2.sh | bash
+curl -s https://raw.githubusercontent.com/TechnoIndian/MitmProxy-in-Ubuntu/main/MitmProxy-in-Ubuntu-2.sh | bash
 ```
 
 ## Run 𝐌𝐢𝐭𝐦𝐏𝐫𝐨𝐱𝐲
