@@ -1,7 +1,6 @@
 clear
-termux-setup-storage
-pkg install openjdk-17 nodejs -y
-npm install -g apk-mitm
+apt update -y && apt upgrade -y
+apt install mitmproxy -y
 clear
 termux-open-url https://t.me/rktechnoindians
 
