@@ -11,7 +11,7 @@
  </p>
 
 ## Original Source
-[![Github](https://img.shields.io/badge/GitHub-red?style=for-the-badge&logo=github)](https://github.com/shroudedcode/apk-mitm)
+[![Github](https://img.shields.io/badge/GitHub-red?style=for-the-badge&logo=github)](https://github.com/mitmproxy/mitmproxy)
 
 
 ## Installation Ubuntu Commands
