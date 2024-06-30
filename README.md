@@ -27,43 +27,38 @@ curl -s https://raw.githubusercontent.com/TechnoIndian/MitmpProxy-in-Ubuntu/main
 ```
 
 ## Installation MitmProxy Commands
+```Python
+curl -s https://raw.githubusercontent.com/TechnoIndian/MitmpProxy-in-Ubuntu/main/MitmProxy-in-Ubuntu-2.sh | bash
 ```
-curl -s https://raw.githubusercontent.com/TechnoIndian/Ubuntu/main/Ubuntu-in-Termux.sh -O && chmod -R +x Ubuntu-in-Termux.sh && ./Ubuntu-in-Termux.sh
 
-
-## Run 𝐀𝐏𝐊-𝐌𝐈𝐓𝐌
-# Change the 'PATH' & 'FOLDER_NAME' as you like
-## Multiple Patch
+## Run 𝐌𝐢𝐭𝐦𝐏𝐫𝐨𝐱𝐲
+# First Run Ubuntu ( fsu )
+## Run mitmproxy
 ```python
-apk-mitm --wait --debuggable --certificate /sdcard/Your_CERT.pem /sdcard/AppName.apk --tmp-dir /sdcard/AppName
+mitmproxy
 ```
-
-## Simple Patch
-```
-apk-mitm /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
-```
-
-## Custom ApkTool
+## Run mitmweb
 ```Python
-apk-mitm --apktool apktool_2.9.3.jar /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
+mitmweb
 ```
 
-## <path-to-pem/der> Add specific certificate to network security config
+## 👉🏻 Socks
 
 ```Python
-apk-mitm --certificate /sdcard/Your_CERT.pem /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
+mitmproxy -m socks5 -p 8050
 ```
 
-## <api-key> Add custom Google Maps API key to be replaced while patching apk
- 
 ```Python
-apk-mitm --maps-api-key API.COM /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
+mitmweb -m socks5 -p 8050
 ```
 
-## Make the patched app debuggable
-
 ```Python
-apk-mitm --debuggable /sdcard/Your_CERT.pem /sdcard/Your_App.apk --tmp-dir /sdcard/App_Name
+mitmdump -m socks5 -p 8050
+```
+
+# Save SSLKEYLOGFILE
+```Python
+SSLKEYLOGFILE="$PWD/.mitmproxy/sslkeylogfile.txt" mitmproxy
 ```
 
 
